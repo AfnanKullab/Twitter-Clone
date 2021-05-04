@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* start Header style */
+header{
+    width: 100%;
+    height: 9vh;
+    border-bottom: 1px solid #999;
+ }
+ .header{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    margin: auto;
+ } 
+ /* end Header style */
+
+ /* start the main section style */
+ main{
+    width: 100%;
+    display: flex;
+}
+ .content{
+    border-left: 1px solid #999 ;
+    border-right: 1px solid #999 ;
+    width: 50%;
+    height: auto;
+    margin: auto;
+ }
+/* start tweetForm style */
+ .newTweet{
+    width: 100%;
+    height: 25vh;
+    border-bottom: 1px solid #999;
+ }
+.newTweet form {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin-top: 15px; 
+}
+.newTweet form input {
+    height: 90%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    font-size: 1.1rem;
+    margin-bottom: 7px;
+    margin-left: 10px;
+
+}
+.username{
+    border: 2px solid #999;
+    border-radius: 13px;
+    box-shadow: 1px 1px 12px #1a91da;
+    background-color: rgb(203, 211, 211);
+}
+.newTweet form button {
+    width: 80px;
+    height: 40px;
+    align-self: flex-end;
+    border-radius: 50px;
+    border: none;
+    color: #fff;
+    background-color: #1a91da;
+    font-size: 1.1rem;
+    cursor:pointer
+} 
+.newTweet form button:hover {
+    background-color: #177ab8;
+    transition: .6s all ;
+}
+ /* end tweetForm style */
+ /* start newsfeed style */
+ .newsfeed{
+    padding-top: 20px;
+    width: 100%;
+}
+.newTweet-content{
+    border-bottom: 1px solid #999;
+    border-top: 1px solid #999;
+    border-radius: 2px;
+    padding: 15px;
+}
+.newTweet-content .container{
+    width: 90%;
+    margin: auto;
+}
+.newTweet-content .container h3{
+    line-height: 1.5;
+    font-size: 1 rem; 
+}
+.newTweet-content .container .tweetfeed {
+    margin-top: 20px;
+    width: 100%;
+    word-break: break-word;
+}
+.newTweet-content .container p {
+    width: 100%;
+    margin: 10px;
+    font-size: 1rem;
+    letter-spacing: .1em;
+    line-height: 1.5;
+}
+.icon-tweet{
+    margin-top: 20px;
+    border-top: 1px solid #999;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 10px;
+}
+.icon-tweet i {
+    margin-left: 30px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+ /* end newsfeed style */
+
+  /* end the main section style */
