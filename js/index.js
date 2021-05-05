@@ -20,8 +20,6 @@ function addNewTweet() {   // to add the tweet onject to an array
     let retweet = "fas";
     let newTweet = new Tweet(username, tweet, like, retweet);
     dataTweet.unshift(newTweet); // to add the tweet on the top of newsfeed.
-
-    console.log(dataTweet)
   
     createNewTweet();
   }
@@ -70,4 +68,5 @@ likeIcon.addEventListener("click",()=>{
     newsfeed.classList.add("newTweetContent")
 
 })
-
+function ReTweet(){}
+retweetIcon.addEventListener("click", ReTweet())
