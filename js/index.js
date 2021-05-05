@@ -65,8 +65,9 @@ submitBTn.addEventListener("click",(e)=>{
     addNewTweet()
 });
 
-// likeIcon.addEventListener("click",()=>{
-//     newfeed.classList.remove("newTweet-content");
-//     newsfeed.classList.add("newTweetContent")
+likeIcon.addEventListener("click",()=>{
+    newfeed.classList.remove("newTweet-content");
+    newsfeed.classList.add("newTweetContent")
 
-// })
+})
+
